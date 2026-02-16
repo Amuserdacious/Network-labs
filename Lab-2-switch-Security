@@ -1,0 +1,20 @@
+LAB 2: SWITCH SECURITY
+DATE: 2026/02/16
+
+WHAT I DID:
+-Changed hostname to Delano-sw1
+-Added MOTD banner warning
+-Set console password
+-Set console secret password
+-Saved to startup-config
+
+Commands used:
+hostname Delano-sw1
+banner motd $you are not authorized$
+line console 0
+password Amuser@1
+login
+enable secret
+copy running-config startup-config
+
+Added Lab 2 notes
